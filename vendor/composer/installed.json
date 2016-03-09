@@ -1,0 +1,35 @@
+[
+    {
+        "name": "keboola/csv",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/keboola/php-csv.git",
+            "reference": "113735ad9f4f7e0ef5545ebfb5fcd62528035841"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/keboola/php-csv/zipball/113735ad9f4f7e0ef5545ebfb5fcd62528035841",
+            "reference": "113735ad9f4f7e0ef5545ebfb5fcd62528035841",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2014-01-31 14:10:34",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Keboola\\Csv": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Keboola CSV reader and writer",
+        "homepage": "http://keboola.com"
+    }
+]
